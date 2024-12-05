@@ -59,4 +59,4 @@ jobs:
           app-name: 'TalentSynch'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F26D8C835EDA4C4A8F9EB795ACA7CE97 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1A0C53D0BB5F4ED5A2424AFB79CA142F }}
