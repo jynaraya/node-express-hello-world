@@ -1,9 +1,8 @@
-exports.home=function(req,res){
-  res.render('home');
-}
+exports.home = function(req, res) {
+    res.render('home'); // Render home.ejs for the homepage
+};
 
-
-exports.login=function(req,res){ 
-    res.render('login');
-}
-
+// Render home.ejs as a maintenance page for /login
+exports.maintenance = function(req, res) {
+    res.render('home'); // Serving the same home.ejs for /login
+};
