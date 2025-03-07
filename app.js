@@ -9,6 +9,8 @@ app.use((req, res, next) => {
     res.render('home'); // Renders home.ejs for all requests
 });
 
+// Ensure no other routes are defined below this middleware
+
 var port = process.env.PORT || 3000;
 
 var server = app.listen(port, function() {
