@@ -6,10 +6,8 @@ app.use(express.static(__dirname + '/public'));
 
 // Middleware to show maintenance page for all routes
 app.use((req, res, next) => {
-    res.render('home'); // Renders home.ejs for all requests
+    res.render('home'); // This will render home.ejs for every request
 });
-
-// Ensure no other routes are defined below this middleware
 
 var port = process.env.PORT || 3000;
 
